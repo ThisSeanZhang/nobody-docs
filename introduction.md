@@ -11,7 +11,13 @@ Nobody Chat 是一个使用了 openaiGPT 的一款聊天工具, 具有以下功�
 
 ## 目前支持的客户端
 
-* Windows
+* Windows: [下载地址](https://github.com/ThisSeanZhang/nobody-docs/releases/download/v0.0.2/nobody-v0.0.2.exe)
+
+## 服务端 
+```shell
+docker pull thisseanzhang/nobody:0.0.1
+```
+[Docker Hub地址](https://hub.docker.com/r/thisseanzhang/nobody/tags)
 
 ## 努力打包中
 

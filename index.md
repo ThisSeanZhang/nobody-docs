@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: 常见问题
       link: /afq
+    - theme: alt
+      text: 下载
+      link: /introduction#目前支持的客户端
 
 features:
   - title: 语音输入
