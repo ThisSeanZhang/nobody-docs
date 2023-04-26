@@ -9,6 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
+      { text: '我的博客', link: 'https://blog.whileaway.io/' },
       // { text: 'Examples', link: '/markdown-examples' }
     ],
 
@@ -52,7 +53,12 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ThisSeanZhang/nobody-docs' }
-    ]
+      { icon: 'github', link: 'https://github.com/ThisSeanZhang/nobody-docs' },
+    ],
+
+    footer: {
+      message: '',
+      copyright: 'Copyright © 2023-present Sean'
+    }
   }
 })
