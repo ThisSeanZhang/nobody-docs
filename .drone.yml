@@ -1,0 +1,27 @@
+kind: pipeline
+type: docker
+name: build-and-deploy
+
+trigger:
+  branch:
+  - main
+
+steps:
+- name: build
+  image: node:16
+  commands:
+  - npm install yarn
+  - yarn
+  - yarn docs:build
+  - cp -r ./public/* /public/
+  volumes:
+  - name: public
+    path: /public
+
+volumes:
+- name: public
+  host:
+    path: /d/nobody_docs/html
+node:
+  whileaway: blog
+
