@@ -8,36 +8,36 @@
 
 比如你想要了解 `夏洛克` 这个角色, 当前的会话看起来是这样的
 
-![](/images/flow-1.png)
+![](/images/flow-1.png){data-zoomable}
 
 这时也许你想对, 夏洛克侦办过的案件进行详细询问, 那么这时候出于节约 [`token`](/afq.md#token-是什么) 或者 或者你想让你当前的上下文更加 "干净" 一些的目的, 可以点击对话旁的分叉按钮
 
-![](/images/flow-2.png)
+![](/images/flow-2.png){data-zoomable}
 
 对话将会变成这样, 别担心, 其他对话并没有消失. 稍后 [会画图](#会画图) 部分将告诉你怎么切换它们
 
-![](/images/flow-3.png)
+![](/images/flow-3.png){data-zoomable}
 
 这时候你就可以继续提问了
 
-![](/images/flow-4.png)
+![](/images/flow-4.png){data-zoomable}
 
 而如果你想要对你的 `对话` 内容进行修改, 并保留现有回答. 那么你可以点击自己对话中的 `分叉`, 就像这样
 
-![](/images/flow-5.png)
+![](/images/flow-5.png){data-zoomable}
 
 你发送的内容将会自动填充到输入框, 并且会自动切换到一个新分支
 
-![](/images/flow-6.png)
+![](/images/flow-6.png){data-zoomable}
 
 你可以修改并且发送
 
-![](/images/flow-7.png)
+![](/images/flow-7.png){data-zoomable}
 
 ## 会画图
 那么怎么切换分支呢, 答案在 `会画图`, 点击会话界面的 `打开会画图` 按钮, 就能看到这个界面
 
-![](/images/flow-8.png)
+![](/images/flow-8.png){data-zoomable}
 
 其中, 拥有绿色方框的, 表示的是当前选择的分支
 
@@ -45,7 +45,7 @@
 
 如果要切换到具体的分支, 那么可以点击具体的会话, 会出现一个 `选择` 的按钮. 点击它, 就能切换到这个分支啦. 
 
-![](/images/flow-9.png)
+![](/images/flow-9.png){data-zoomable}
 
 :::info
 不仅仅末端的可以点, 所有节点都可以切换, 就和分叉一样
@@ -56,7 +56,7 @@
 比如, 我想把当前询问 `最喜欢的案件` , 移动回之前的分支
 
 以下是一个 GIF
-![](/images/flow_example.gif)
+![](/images/flow_example.gif){data-zoomable}
 
 
 

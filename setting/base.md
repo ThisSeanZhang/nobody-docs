@@ -1,7 +1,7 @@
 # 基础设置
 ##
 
-![](/images/setting-base-1.png)
+![](/images/setting-base-1.png){data-zoomable}
 * 你想要使用什么语言: 用于翻译时候填充的目标语言
 * 选择翻译工具: 在聊天时[选中文本](/base-start#开始对话)会出现小菜单, 这个就是到时候用的翻译选择
 * API KEY: openAI 的 API KEY

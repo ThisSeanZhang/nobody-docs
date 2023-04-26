@@ -1,12 +1,12 @@
 # 语音识别
 ##
 
-![](/images/setting-recognition-1.png)
+![](/images/setting-recognition-1.png){data-zoomable}
 
 这些设置主要控制 `语音识别的方式` \ `语音识别后是否发送` \ `发送的间隔`
 
 对应会话界面的这两个按钮
-![](/images/setting-recognition-2.png)
+![](/images/setting-recognition-2.png){data-zoomable}
 
 `点击麦克风就开始录音`是对麦克风的录音行为进行设置:
 * 开启时: 当点击上图的麦克风图标时, 并不会立即录音. 而是当你 `开始说话` 后才进行识别, 这时候需要把持续识别关闭, 不然就要等好久, 才会停止识别状态. (PS: 处于识别状态的麦克风会变黄)
@@ -15,4 +15,4 @@
 `自动发送时长倒计时` 是在语音结束后, 自动发送的倒计时. (当然, 需要在会话界面中开启自动发送才会进行自动发送)
 
 ## GIF 演示
-![](/images/auto_seand_example.gif)
+![](/images/auto_seand_example.gif){data-zoomable}
