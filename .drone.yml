@@ -13,7 +13,7 @@ steps:
   - npm install yarn
   - yarn
   - yarn docs:build
-  - cp -r ./public/* /public/
+  - cp -r ./.vitepress/dist/* /public/
   volumes:
   - name: public
     path: /public
